@@ -1,4 +1,4 @@
-### **PyShop - Simple Online Store**  
+# **PyShop - Simple Online Store**  
 
 #### **Overview**  
 PyShop is a **basic online shop** built with Django and Bootstrap. It dynamically displays products (fruits) with images, prices and an "Add to Cart" button.  
@@ -7,7 +7,22 @@ PyShop is a **basic online shop** built with Django and Bootstrap. It dynamicall
 * List of products with images and prices  
 * Responsive design with Bootstrap  
 * Django-based backend for product management  
-* SQLite database for storing product data  
+* SQLite database for storing product data
+
+## Screenshots
+
+### Admin Panel - Product List
+![admin-prodcuts](https://github.com/user-attachments/assets/f07937a9-d4d6-4b10-9e15-2d9a3f3bcc5e)
+This screen shows the list of products in the Django Admin Panel, including their prices and stock levels.
+
+### Admin Panel - Dashboard
+![admin](https://github.com/user-attachments/assets/ca86dc26-e4ec-43c2-90ff-7923fbf17aa7)
+
+The main admin panel allows management of users, groups, products and offers.
+
+### Product Listing Page
+![products](https://github.com/user-attachments/assets/4566bd67-1e5a-4821-99b2-1744b1a0e106)
+The frontend of the PyShop application displays available products with images, prices and an "Add to Cart" button.
 
 #### **Project Structure**  
 ```
@@ -37,22 +52,15 @@ PyShop is a **basic online shop** built with Django and Bootstrap. It dynamicall
 git clone https://github.com/MaheshNanavare/PyShop.git
 cd PyShop
 ```
-2. **Create a Virtual Environment & Install Dependencies**  
-```sh
-python -m venv venv
-source venv/bin/activate    # On macOS/Linux
-venv\Scripts\activate       # On Windows
-pip install -r requirements.txt
-```
-3. **Run Migrations**  
+2. **Run Migrations**  
 ```sh
 python manage.py migrate
 ```
-4. **Run the Development Server**  
+3. **Run the Development Server**  
 ```sh
 python manage.py runserver
 ```
-5. **Access the App**  
+4. **Access the App**  
 Open [http://127.0.0.1:8000/](http://127.0.0.1:8000/) in your browser.
 
 #### **Contributing**  
